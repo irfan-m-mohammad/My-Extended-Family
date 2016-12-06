@@ -14,4 +14,6 @@ The idea of the project is to develop an application with the following features
 - [Gitter Chatroom](https://gitter.im/My-Extended-Family)
 
 ## Team
-Looking for team members. 
+- @anshuedu
+- @AshishVishwakarma
+- @M-ZubairAhmed

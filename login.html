@@ -17,8 +17,18 @@
       <input type="text" placeholder="username"/>
       <input type="password" placeholder="password"/>
       <button>login</button>
-      <p class="message">Not registered? <a href="#">Create an account</a></p>
+      <p class="message">Not Registered? <a>Use Facebook to login instead</a></p>
     </form>
+    <div id="fb-root"></div>
+
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1365639380143791";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
   </div>
 </div>
 </body>
